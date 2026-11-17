@@ -9,3 +9,8 @@
 .footer .wordmark-logo{width:202px;height:95px}
 .intro-heading::after{content:"";display:block;width:200px;height:80px;margin-top:12px;background:#19302c;mask:url('/assets/cyberpross-wordmark.svg') center/contain no-repeat;-webkit-mask:url('/assets/cyberpross-wordmark.svg') center/contain no-repeat;opacity:.74}
 @media(max-width:580px){.site-header .wordmark-logo{width:135px;height:62px}.footer .wordmark-logo{width:185px;height:80px}}
+
+/* Brand visibility fix: source-traced logo, large header sizing, light/dark contrast */
+.site-header .wordmark-logo{width:240px;height:76px;object-fit:contain;filter:none}
+.footer .wordmark-logo{width:250px;height:100px;object-fit:contain;filter:none}
+@media(max-width:650px){.site-header .wordmark-logo{width:155px;height:61px}.footer .wordmark-logo{width:200px;height:86px}}
